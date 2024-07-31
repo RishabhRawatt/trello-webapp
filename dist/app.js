@@ -19,7 +19,6 @@ const user_routes_1 = __importDefault(require("./routes/user.routes"));
 const task_routes_1 = __importDefault(require("./routes/task.routes"));
 const app = (0, express_1.default)();
 app.use((0, cors_1.default)({
-    // origin: process.env.CORS_ORIGIN,
     origin: "*",
     credentials: true,
 }));
